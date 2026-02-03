@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #3e2723;
+    color: white;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 100px;
+    background: #efebe9; 
+}
+
+footer {
+    background: #3e2723;
+    color: white;
+    padding: 10px;
+}
+
+/* Mobil Uyum */
+@media (max-width: 600px) {
+    .hero {
+        padding: 40px;
+    }
+}
+
+.hero img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 40px;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 5px;
+    
+}
+
+button {
+    padding: 10px 20px;
+    background: #3e2723;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
