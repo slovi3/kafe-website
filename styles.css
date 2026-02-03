@@ -44,8 +44,9 @@ footer {
 }
 
 .hero img {
-    border-radius: 10px;
-    margin-bottom: 20px;
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
 }
 
 section {
@@ -66,6 +67,7 @@ button {
     border: none;
     cursor: pointer;
 }
+
 
 .navbar {
     display: flex;
