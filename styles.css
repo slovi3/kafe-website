@@ -175,3 +175,38 @@ footer {
     width: 250px;
     border-radius: 10px;
 }
+
+/* ABOUT PAGE */
+
+.about {
+    padding: 60px;
+    text-align: center;
+}
+
+.about p {
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+/* TEAM */
+
+.team {
+    padding: 60px;
+    text-align: center;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.team-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
