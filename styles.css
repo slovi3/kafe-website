@@ -156,6 +156,13 @@ footer {
     color: #2c1810;
 }
 
+.menu-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
 /* GALLERY */
 
 .gallery {
