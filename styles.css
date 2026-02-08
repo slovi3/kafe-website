@@ -7,17 +7,20 @@
 
 body {
     background: #f3f0ea;
+    background: linear-gradient(to bottom, #f2e6d9, #ffffff);
 }
 
 /* NAVBAR */
 
 .navbar {
+    background: #2c1810;
+    padding: 15px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #2c1810;
-    padding: 20px 50px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
+
 
 .logo {
     color: #c7a17a;
@@ -52,6 +55,7 @@ body {
     text-align: center;
     color: white;
 }
+
 
 .hero-content h1 {
     font-size: 48px;
@@ -102,9 +106,11 @@ body {
 footer {
     background: #2c1810;
     color: white;
+    padding: 30px;
     text-align: center;
-    padding: 20px;
+    margin-top: 40px;
 }
+
 
 /* MOBILE */
 
@@ -161,6 +167,16 @@ footer {
     border-radius: 10px;
     margin-bottom: 10px;
 }
+
+.menu-card, .review-card {
+    transition: 0.3s ease;
+}
+
+.menu-card:hover, .review-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
 
 
 /* GALLERY */
